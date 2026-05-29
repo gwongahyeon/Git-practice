@@ -50,6 +50,7 @@ if __name__ == "__main__":
     average = calculate_average(scores)
     print_result(scores, average)
 
+
     highest, lowest = find_highest_lowest(scores)
     print(f"\n최고점: {highest} ({scores[highest]:.1f}점)")
     print(f"최저점: {lowest} ({scores[lowest]:.1f}점)")
