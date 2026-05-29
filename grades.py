@@ -1,4 +1,5 @@
-SUBJECTS = ["국어", "영어", "수학", "과탐"]
+# gradebook v1.1 — 2주차 실습 시작
+SUBJECTS = ["국어", "영어", "수학", "과학탐구"]
 
 # file_io.py
 # 점수를 파일로 저장하고 불러오는 모듈
@@ -51,6 +52,7 @@ if __name__ == "__main__":
     scores = get_scores()
     average = calculate_average(scores)
     print_result(scores, average)
+
 
     highest, lowest = find_highest_lowest(scores)
     print(f"\n최고점: {highest} ({scores[highest]:.1f}점)")
